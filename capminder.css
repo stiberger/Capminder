@@ -1,0 +1,97 @@
+.capminder-chart .dot {
+  stroke: #000;
+}
+.capminder-chart .trails circle {
+  stroke: #000;
+}
+
+.capminder-chart .axis path, capminder-chart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.capminder-chart .label {
+  fill: #777;
+}
+
+.capminder-chart .year.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.capminder_options label {
+    display: block;
+}
+.capminder_options label input {
+    margin: 5px 10px 5px 5px;
+}
+.capminder_options label input,
+.capminder_options label span {
+    vertical-align: middle;
+}
+.capminder_options .labels {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    height: 295px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.capminder-chart text {
+    pointer-events: none;
+}
+.capminder-chart .play_control_toolbar {
+    display: inline-block;
+    padding: 1px 3px 1px 3px;
+}
+.capminder-chart .slider {
+    width: 300px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.dialog_wrapper {
+    margin: 10px;   
+}
+.tooltip {
+    -moz-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    transition: all 0.15s;
+    position: absolute;
+    min-width: 60px;
+    min-height: 62px;
+    padding: 10px;
+    opacity: 0.85;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+.tooltip.hidden {
+    display: none;
+}
+.tooltip table {
+    border: none;
+}
+.tooltip table caption {
+    font-weight: bold;
+    color: #666;
+    border-bottom: 1px dashed #ccc;
+}
+.tooltip td {
+    font-weight: bold;
+    text-align: right;
+    padding: 3px 0;
+}
+.tooltip td:first-child {
+    font-weight: normal;
+    text-align: left;
+    padding-right: 2em;
+}
