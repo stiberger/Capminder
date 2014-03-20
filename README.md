@@ -76,7 +76,7 @@ Procedure as follows:
 Usage
 -----
 - Drag 3 measures on *Columns*. They are automatically assigned to *x, y* and *size*.
-- Drag 1 time dimension at end of *Columns*. A *year* dimension works nice.
+- Drag 1 time dimension at end of *Columns*. A *year* dimension works nice. It should be a consecutive non repeating number series. *Months* Could work, but needs to be filtered to just one year.
 - Drag 2 dimensions to *Rows*. First is for coloring, the other for names.
 - Activate renderer in right hand toolbar.
 - Hit play button for instant satisfaction
@@ -88,7 +88,12 @@ Nope. - But, I will hang around from time to time on irc freenode ##saiku. Feel 
 
 Planned improvements
 --------------------
-I have some things on my todo list, I will move those entries here soon.
+- Click on bubbles will highlight them, and display a name label
+- Color legend
+- Change color palette, and make bubbles less flat
+- Return to same scrub position when minor rerendering is done.
+- Mouseover tooltip on bubbletrail as well
+- Integrate with save files to store view state and settings
 
 
 What would make it better
