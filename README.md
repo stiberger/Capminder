@@ -22,7 +22,6 @@ Inspirational sources
 Thanks to the following contributors, who made this possible.
 - General initial code and strucure http://bost.ocks.org/mike/nations/
 - For pause and resuming tranistions in D3 http://xaedes.de/dev/transitions/
-The plugin is made at my current employer Capia AS.
 
 Installation
 ------------
