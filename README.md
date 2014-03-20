@@ -2,6 +2,8 @@ Capminder
 =========
 A Saiku plugin to mimik the features of Gapminder, made famous by Hans Rosling and later aquired by Google. It uses the D3js library for generating and animating SVG graphics. It is not Flash based as the original.
 
+![](http://capia.no/screencasts/capminder.png)
+
 This is work in progress, and is only meant as fun for developers at the moment.
 
 Features
